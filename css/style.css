@@ -1,0 +1,169 @@
+/*fonts
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
+
+	*/
+/*General Styles*/
+
+body {
+	background-color: #fff;
+	width: 100%;
+}
+
+a {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+
+/* Float fix */
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+
+/*header*/
+header {
+	box-sizing: border-box;
+	background-color: #000;
+	padding-top: 10px;
+	padding-left: 50px;
+	border-bottom: solid #fdf731 5px;
+	height: 100px;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fdf731;
+	float: left;
+}
+
+nav {
+	float: right;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+/*mouseover nav*/
+a:hover {
+	background-color: #c6c6c6;
+}
+
+
+.uppercase {
+	font-family: 'Oswald', sans-serif;
+	padding-left: 20px;
+}
+
+.caps {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	padding-left: 20px;
+}
+
+/*twobrains*/
+.two-brains {
+	background-color: #c6c6c6;
+}
+
+.centerbrains {
+	text-align: center;
+}
+
+.because {
+	display: inline-block;
+	font-size: 25px;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+/*meet your match*/
+
+.meetyourmatch {
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	background-position: center;
+	height: 450px;
+}
+
+h2 {
+	font-size: 30px;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-weight: 700;
+}
+
+.lightbox {
+	background-color: rgba(255,255,255,.85);
+	float: right;
+	width: 40%;
+	border: #ddd solid 1px;
+	padding: 0px 20px 50px 20px;
+	margin: 50px;
+}
+
+p {
+	font-size: 16px;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-weight: 400;
+}
+
+.button {
+	padding: 7px;
+	border-radius: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	border-bottom: solid 2px #363636;
+	text-align: center;
+}
+
+.profile {
+	background-color: #fdf731;
+	color: #000;
+}
+
+/* Button section */
+.buttontitles {	
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 25px;
+}	
+
+.buttonsections {
+	float: left;
+	box-sizing: border-box;
+	width: 33%;
+	padding: 30px;
+	margin: 20px 0px;
+}
+
+.grey {
+ 	background-color: #a8a8a8;
+}
+
+.sectiondivider {
+	border-right: solid #c6c6c6 1px;
+	height: 90%;
+}
+
+
+/*footer*/
+
+footer {
+	color: #000;
+	height: 70px;
+}
+
+.copyright {
+	color: white;
+}
