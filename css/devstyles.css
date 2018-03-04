@@ -1,0 +1,75 @@
+
+/*General Styles*/
+/*
+
+General styles and header style are pulling from css/style.css
+
+*/
+
+
+
+
+
+/*developer list*/
+.mainsection {
+	background-color: #c6c6c6;
+	padding: 20px 30px;
+}
+
+section.row {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 20px;
+}
+
+.devs {
+	background-color: #fff;
+	padding: 10px;
+	float: left;
+}
+
+
+
+/*Developer profile*/
+.photo {
+	background-color: #c6c6c6;
+	width: 280px;
+	height: 280px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.phototext {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: #ddd;
+	padding-top: 120px;
+}
+
+
+/*skill button*/
+.skill {
+	background-color: #A9A9A9;
+	border-radius: 20px;
+	padding: 2px 7px;
+	display: inline-block;
+	margin: 5px 5px 0px 0px;
+}
+
+.skilltext {
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*wide contact button*/
+.wide {
+	width: 100%;
+	text-transform: uppercase;
+}
+
+
+
+
+

@@ -7,8 +7,12 @@
 	box-sizing: border-box;
 }
 
+.blankpage {
+	height: 600px;
+}
+
+
 body {
-	background-color: #fff;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -19,6 +23,35 @@ a {
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+.button {
+	display: block;
+	padding: 7px;
+	border-radius: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	border-bottom: solid 2px #ddd;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+}
+
+.yellow {
+	background-color: #fdf731;
+	color: #000;
+}
+
+.contact {
+	background-color: #fdf731;
+	color: #000;
 }
 
 
@@ -82,109 +115,6 @@ a.caps {
 
 
 
-/*Section One*/
-section.one {
-	background-color: #c6c6c6;
-}
-
-div.centerbrains {
-	display: flex;
-	justify-content: center;
-	height: 60px;
-	width: 100%;
-	padding-top: 15px;
-}
-
-.because {
-	font-size: 25px;
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-style: italic;
-}
-
-
-
-/*meet your match*/
-.meetyourmatch {
-	background-image: url("../images/coworking.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	height: 400px;
-	width: 100%;
-}
-
-
-h2 {
-	font-size: 30px;
- 	font-family: 'Source Sans Pro', sans-serif;
- 	font-weight: 700;
-}
-
-.lightbox {
-	background-color: rgba(255,255,255,.85);
-	float: right;
-	width: 350px;
-	border: #ddd solid 1px;
-	padding: 10px 20px 50px 20px;
-	margin: 60px 60px 60px 0px;
-}
-
-p {
-	font-size: 16px;
- 	font-family: 'Source Sans Pro', sans-serif;
- 	font-weight: 400;
-}
-
-.button {
-	display: block;
-	padding: 7px;
-	border-radius: 5px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
-	font-size: 20px;
-	border-bottom: solid 2px #ddd;
-	text-align: center;
-	width: 200px;
-	margin-top: 20px;
-}
-
-.profile {
-	background-color: #fdf731;
-	color: #000;
-}
-
-
-
-/* Section Two*/
-section.two {
-	padding: 30px 40px;
-}
-
-h3 {
-	font-size: 25px;
-	font-family: 'Merriweather',serif;
-	font-weight: 700;
-	margin: auto;
-}
-
-
-.buttonsections {
-	float: left;
-	box-sizing: border-box;
-	width: 33%;
-	padding: 10px 30px;
-}
-
-.grey {
- 	background-color: #a8a8a8;
-}
-
-.sectiondivider {
-	border-right: solid #c6c6c6 1px;
-}
-
-
 /*footer*/
 
 footer {
@@ -200,3 +130,4 @@ footer {
 .copyright {
 	color: white;
 }
+
