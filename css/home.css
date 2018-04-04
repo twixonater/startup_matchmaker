@@ -31,6 +31,12 @@ div.centerbrains {
 	font-style: italic;
 }
 
+@media only screen and (max-width: 768px){
+	.centerbrains {
+		display: none;
+	}
+}
+
 
 
 /*meet your match*/
@@ -60,8 +66,6 @@ h2 {
 }
 
 
-
-
 /* Section Two*/
 section.two {
 	padding: 30px 40px;
@@ -82,6 +86,16 @@ h3 {
 	padding: 10px 30px;
 }
 
+@media only screen and (max-width: 768px){
+	.buttonsections{
+		float: none;
+		display: block;
+		width: 100%;
+		padding: 20px 30px;
+	}
+}
+
+
 .grey {
  	background-color: #a8a8a8;
 }
@@ -90,4 +104,10 @@ h3 {
 	border-right: solid #c6c6c6 1px;
 }
 
+@media only screen and (max-width:768px){
+	.sectiondivider {
+		border-right: none;
+		border-bottom: solid #c6c6c6 1px;
+	}
+}
 
